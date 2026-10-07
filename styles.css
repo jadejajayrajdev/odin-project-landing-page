@@ -37,7 +37,7 @@ body {
   gap: 20px;
 }
 
-.hero-image {
+#hero-image {
   height: 200px;
   width: 400px;
 }
@@ -47,12 +47,12 @@ body {
   flex-wrap: wrap;
 }
 
-.hero-title {
+#hero-title {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
-.hero-sub-text {
+#hero-sub-text {
   font-size: 18px;
   color: #e5e7eb;
   margin-top: 0px;
@@ -76,7 +76,7 @@ body {
   color: #1f2937;
 }
 
-.motto-title {
+#motto-title {
   font-weight: 900;
   font-size: 36px;
 }
@@ -128,7 +128,7 @@ body {
   padding-bottom: 100px;
 }
 
-.quote {
+#quote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
@@ -136,10 +136,42 @@ body {
   margin: 0;
 }
 
-.quoter {
+#quoter {
   align-self: flex-end;
   font-size: 24px;
   font-weight: 700;
+}
+
+.prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.prompt-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  width: 1000px;
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.prompt-text {
+  color: #f9faf8;
+}
+
+#prompt-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#prompt-subsection {
+  margin: 0;
 }
 
 ul {
@@ -163,4 +195,8 @@ button {
   padding: 5px 20px;
   border-radius: 8px;
   border: 0;
+}
+
+#prompt-button {
+  border: 1.5px solid #f9faf8;
 }
